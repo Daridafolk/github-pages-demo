@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 26px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #b7cdc9;
+    color: white;
+    font-family: 'Segoe Script', Arial, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+a:hover {
+    color: aqua;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 20px 0 30px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+section {
+    padding: 100px 0;
+}
+
+p {
+    color: #486863;
+}
+
+.header {
+    background-color: rgba(7, 37, 32, 0.8);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation a:not(:last-child) {
+    margin-right: 20px;
+}
+
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal
+}
+
+.background {
+    background-image: url("../background_image/background_image_1.jpg");
+    background-size: cover;
+}
+
+.hero,
+.description-me {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 300px;
+}
+
+.hero p {
+    color: rgb(201, 231, 229);
+}
+
+.about,
+.about-desc {
+    max-width: 620px;
+    align-content: center;
+}
+
+.about-desc h2 {
+    margin-bottom: 30px;
+}
+
+.web-developer {
+    text-align: center;
+    background-image: url(../background_image/background_image_2.jpg);
+    background-size: cover;
+}
+
+.web-developer p {
+    max-width: 1000px;
+    margin: 40px auto 0;
+    color: #b7cdc9;
+}
+
+.hobby {
+    text-align: center;
+}
+
+.text {
+    max-width: 1100px;
+    margin: 20px auto 70px;
+}
+
+.hobby-item {
+    display: flex;
+    justify-content: center;
+}
+
+.hobby-item h4 {
+    margin: 5px auto 20px;
+}
+
+.hobby-item p {
+    font-size: 0.8rem;
+}
+
+article {
+    padding: 30px;
+    max-width: 450px;
+    border: 3px solid #6c8783;
+    text-align: center;
+    border-radius: 20px;
+}
+
+article:not(:last-child) {
+    margin-right: 50px;
+}
+
+.book-film {
+    padding: 0 0 100px;
+    text-align: center;
+}
+
+.book-film h2 {
+    margin-bottom: 50px;
+}
+
+.book-film a:not(:last-child) {
+    margin-right: 40px;
+}
+
+footer {
+    padding: 80px 0;
+    background-image: url(../background_image/background_image_2.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+footer a {
+    font-size: 1.2rem;
+}
+
+footer a:not(:last-child) {
+    margin-right: 50px;
+}
